@@ -1,0 +1,199 @@
+body{
+    background-color: #ffffff;
+}
+.utama{
+    width: 900px;
+    margin: auto;
+    background-color: #f8dada;
+}
+.utama:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header h1{
+	float: right;
+	padding: 10px 70px;
+	color: #fdfdfd;
+    text-align: center;
+    margin: auto;
+}
+header h2{
+	color: #ffffff;
+}
+header h2{
+    color: black;
+}
+nav{
+    height: 43px;
+    background-color: #FAB9B9;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAB9B9;
+    top: 0;
+    width: 100%;
+}
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color:#b97979;
+    ;
+    color: #ffe9e9;
+}
+
+.judul{
+    font-family: monospace;
+    float: right;
+    text-size-adjust: 15px;
+
+}
+
+footer {
+    background-color:#FAB9B9;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    clear: both;
+}
+footer .copy {
+    color: honeydew;
+    text-align: center;
+    font-size: 12px;
+}
+label{
+    text-align: left;
+    font-size: 14px;
+    font-family: cursive;
+    padding: 5px;
+}
+
+.list-produk
+{
+    padding: 15px;
+    float: left;
+    width: 150px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: #b97979;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 7px;
+    padding:7px;
+    display: block;
+    float: left;
+    width: 70%;
+    margin: 15px;
+    text-align: center;
+    color: white;
+}
+
+.klik
+{
+    text-decoration: none;
+    border-radius: 5px;
+    padding:5px;
+    display: block;
+    float: center;
+    width: 87%;
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover
+{
+    background-color: rgb(117, 74, 74);
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail
+{
+    background-color:#FAB9B9;
+}
+
+.tombol-beli
+{
+    background-color: rgb(255, 147, 147);
+}
+.tombol-kirim
+{
+    background-color: #b97979;
+}
+/* form */
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #FAB9B9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file],
+select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #FAB9B9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #FAB9B9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #b97979;
+}
+.divform {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.divform .tab {
+    padding-left: 50px;
+}
+
